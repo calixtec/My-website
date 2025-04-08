@@ -1,1 +1,0 @@
-// Blog page (list of blog posts)
