@@ -40,7 +40,7 @@ export default function TopSection() {
     <a href="https://github.com/calixtec?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
         <FontAwesomeIcon icon={faGithub} size="2x" className="tech-icon" />
     </a>
-    <a href="path/to/your/resume.pdf" download="Christopher_Calixte_Resume.pdf" aria-label="Download Resume" className="resume-link">
+    <a href="/Christopher_Calixte_Resume.pdf" download="Christopher_Calixte_Resume.pdf" aria-label="Download Resume" className="resume-link">
         <FontAwesomeIcon icon={faFileDownload} size="2x" className="tech-icon" />
         <span className="sr-only">Download Resume</span>
     </a>
