@@ -1,11 +1,10 @@
 export default function Footer() {
     return (
-      <p className="footer">
-        <a href="https://github.com/calixtec?tab=repositories">Github</a>
-        <a href="https://github.com/calixtec?tab=repositories">Resume(real link not there yet)</a>
-        <a href="mailto:cc976948@wcupa.edu">Email</a>
-        <a href="https://www.linkedin.com/in/christopher-calixte-87bb56223/">LinkedIn</a>
+      <footer class = "footer">
+      <p className="copyright">
+        © 2025 Christopher Calixte | Last updated: April 2025
       </p>
+      </footer>
     );
   }
   

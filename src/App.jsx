@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import Bar from "./components/Divider";
 import TopSection from "./components/TopSection";
 import AboutMe from "./components/AboutMe";  // The new About Me page
+import Contact from "./components/Contact"
+import Articles from "./components/Articles"
 import "./styles/style.css";
 
 function App() {
@@ -18,25 +20,38 @@ function App() {
       {/* <ParticleBackground /> */}
       <TopSection />
       <Bar />
+      
 
       {/* Routes for specific pages */}
       <Routes>
         <Route path="/" element={<>
         {/* <Header /> */}
-        <TechStack />
+        {/* <TechStack /> */}
         <Projects />
-        <BlogPreview />
+        {/* <BlogPreview /> */}
+      
         </>} />
 
         <Route path="/about-me" element={
         <AboutMe />
       
       } />
+
+<Route path="/contact" element={
+        <Contact />
+      
+      } />
+
+<Route path="/articles" element={
+        <Articles />
+      
+      } />
+
         {/* Add more routes as needed */}
       </Routes>
 
       {/* Footer (rendered at the bottom of all pages) */}
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }

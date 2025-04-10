@@ -19,9 +19,11 @@ export default function TopSection() {
 
 
                 <div className="nav-links">
-                    <a href="/blog">Blog</a>
+                <a href="/">Home</a>
                     <a href="/about-me">About Me</a>
+                    <a href="/articles">Articles</a>
                     <a href="/contact">Contact</a>
+                    
                 </div>
 
                 <div className="nav-links2">
@@ -30,7 +32,7 @@ export default function TopSection() {
                 </div>
 
                 <div className="nav-links2" >
-                    <p className="tagline">Cybersecurity & Cloud Enthusiast</p>
+                    <p className="tagline">&nbsp; DevOps | InfoSec | Data Analytics | CI/CD</p>
                 </div>
 
                 <div className="nav-links2">
